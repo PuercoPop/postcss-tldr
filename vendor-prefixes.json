@@ -1,0 +1,9 @@
+{
+  "display": {
+    "pattern": "flex",
+    "side": "value",
+    "prefixes": [
+      "-webkit-box", "-ms-flexbox", "-webkit-flex"
+    ]
+  }
+}

@@ -1,3 +1,4 @@
-flyer {
-  backgroud-color: $`purple`;
+.flyer {
+  backgroud-color: $purple;
+  border-width: 1px;
 }

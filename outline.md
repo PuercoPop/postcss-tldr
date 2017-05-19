@@ -14,6 +14,7 @@
 
 - Variables
 
-- Mixins
+- ~~Mixins~~
+- vendor-prefix
 
 - CSS modules
