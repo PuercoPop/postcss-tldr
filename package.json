@@ -1,0 +1,14 @@
+{
+  "name": "postcss-ffnp",
+  "version": "0.0.1",
+  "description": "Post CSS for FUN and profit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Olaechea",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "postcss": "^5.2.17"
+  }
+}
