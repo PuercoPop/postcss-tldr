@@ -27,7 +27,4 @@ function substVar(rootNode) {
 
 var rootNode = postcss.parse(fs.readFileSync('example.css', { encoding: 'utf-8' }));
 substVar(rootNode);
-// rootNode.walkDecls(console.log);
-var ret = '';
-postcss.stringify(rootNode, (n) => { ret += n });
-console.log(ret);
+console.log(rootNode.toString());
