@@ -1,7 +1,7 @@
 ;'use strict';
 var fs = require('fs');
 var postcss = require('postcss');
-var colors = require('./color-palette.json')
+var colors = require('../data/color-palette.json')
 
 /*
 
@@ -25,6 +25,6 @@ function substVar(rootNode) {
   });
 };
 
-var rootNode = postcss.parse(fs.readFileSync('example.css', { encoding: 'utf-8' }));
+var rootNode = postcss.parse(fs.readFileSync('./css/example.css', { encoding: 'utf-8' }));
 substVar(rootNode);
 console.log(rootNode.toString());
