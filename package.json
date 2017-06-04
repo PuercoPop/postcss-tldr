@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Post CSS for FUN and profit",
   "scripts": {
-    "substVars": "node src/substVars.js"
+    "substVars": "node src/substVars.js",
+    "vendor-prefix": "node src/vendor-prefix.js"
   },
   "author": "Javier Olaechea",
   "license": "GPL-3.0",

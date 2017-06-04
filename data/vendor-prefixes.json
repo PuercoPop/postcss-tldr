@@ -1,8 +1,7 @@
 {
   "display": {
     "pattern": "flex",
-    "side": "value",
-    "prefixes": [
+    "values": [
       "-webkit-box", "-ms-flexbox", "-webkit-flex"
     ]
   }
