@@ -4,11 +4,14 @@
   "description": "Post CSS for FUN and profit",
   "scripts": {
     "substVars": "node src/substVars.js",
-    "vendor-prefix": "node src/vendor-prefix.js"
+    "vendor-prefix": "node src/vendor-prefix.js ",
+    "make": "markdown-to-slides -i -d slides/slides.md -o slides/index.html",
+    "open": "xdg-open slides/index.html"
   },
   "author": "Javier Olaechea",
   "license": "GPL-3.0",
   "dependencies": {
+    "markdown-to-slides": "^1.0.5",
     "postcss": "^5.2.17"
   }
 }
